@@ -13,7 +13,8 @@ module file name less the `.php`.
 
 Subscribe a module to events like this:
 
-`     <?php
+`     
+     <?php
 
         M()->register_callback('post_head', 'my_function');
 
@@ -24,7 +25,8 @@ Subscribe a module to events like this:
 
 or this:
 
-`     <?php
+`     
+     <?php
 
         M()->register_callback('post_head', array('my_class','my_function'));
 
@@ -64,7 +66,8 @@ Folder structure:
 |   +-[theme]
 +-[public_html]
     |
-    +-[media]`
+    +-[media]
+`
 
 Media is where the framework expects the style.css file to be. It is also a good
 place to put images, JS, and so forth. An empty index.html might be an idea too.
