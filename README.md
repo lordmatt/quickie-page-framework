@@ -56,7 +56,7 @@ and the like.
 * end - after `</html>`
 
 Folder structure:
-
+`
 |
 +-[inc]
 |   |
@@ -64,7 +64,7 @@ Folder structure:
 |   +-[theme]
 +-[public_html]
     |
-    +-[media]
+    +-[media]`
 
 Media is where the framework expects the style.css file to be. It is also a good
 place to put images, JS, and so forth. An empty index.html might be an idea too.
