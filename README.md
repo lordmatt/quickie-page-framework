@@ -56,6 +56,7 @@ and the like.
 * end - after `</html>`
 
 Folder structure:
+
         |
         +-[inc]
         |   |
